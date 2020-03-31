@@ -86,7 +86,7 @@ public class BeanVehiculos implements Serializable{
         System.out.println("rta "+r);
         if (r >0){
         //this.mensaje = "Inserto "+r;
-        FacesContext.getCurrentInstance().addMessage(null, new FacesMessage(FacesMessage.SEVERITY_INFO, "", "SE INSERTO VEHICULO PLACA"+v.getPlaca()));
+        FacesContext.getCurrentInstance().addMessage(null, new FacesMessage(FacesMessage.SEVERITY_INFO, "", "SE INSERTO VEHICULO PLACA"+"\n"+v.getPlaca()));
         }else{
           FacesContext.getCurrentInstance().addMessage(null, new FacesMessage(FacesMessage.SEVERITY_ERROR, "", "NO INSERTO VEHICULO PORQUE YA EXISTE"));
          
