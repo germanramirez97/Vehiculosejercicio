@@ -17,7 +17,7 @@ import java.util.logging.Logger;
  */
 public class Conexion {
     public Connection conectarse(){
-        
+        //prueba actualizacion
         try {
             Class.forName("org.postgresql.Driver");
             Connection c = DriverManager.getConnection(
